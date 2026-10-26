@@ -1,0 +1,109 @@
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mHP Linux Imaging and Printing System (ver. 3.26.6)[0m
+hplip-install[205247]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :Copyright (c) 2001-18 HP Development Company, LP
+hplip-install[205247]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[205247]: info: :This is free software, and you are welcome to distribute it
+hplip-install[205247]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :Installer log saved in: [01mhplip-install_Fri-23-Oct-2026_18:41:08.log[0m
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+error: ubuntu-26.10 version is not supported, so all dependencies may not be installed. However trying to install using ubuntu-24.04 version packages.
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mINSTALLATION MODE[0m
+hplip-install[205247]: info: :[01m-----------------[0m
+hplip-install[205247]: info: :Automatic mode will install the full HPLIP solution with the most common options.
+hplip-install[205247]: info: :Custom mode allows you to choose installation options to fit specific requirements.
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mINTRODUCTION[0m
+hplip-install[205247]: info: :[01m------------[0m
+hplip-install[205247]: info: :This installer will install HPLIP version 3.26.6 on your computer.
+hplip-install[205247]: info: :Please close any running package management systems now (YaST, Adept, Synaptic, Up2date, etc).
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mDISTRO/OS CONFIRMATION[0m
+hplip-install[205247]: info: :[01m----------------------[0m
+hplip-install[205247]: info: :Distro appears to be Ubuntu 26.10.
+
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mDRIVER OPTIONS[0m
+hplip-install[205247]: info: :[01m--------------[0m
+hplip-install[205247]: info: :
+Initializing. Please wait...
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mSELECT HPLIP OPTIONS[0m
+hplip-install[205247]: info: :[01m--------------------[0m
+hplip-install[205247]: info: :You can select which HPLIP options to enable. Some options require extra dependencies.
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mENTER USER PASSWORD[0m
+hplip-install[205247]: info: :[01m-------------------[0m
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mINSTALLATION NOTES[0m
+hplip-install[205247]: info: :[01m------------------[0m
+hplip-install[205247]: info: :Enable the universe/multiverse repositories. Also be sure you are using the Ubuntu "Main" Repositories. See: https://help.ubuntu.com/community/Repositories/Ubuntu for more information.  Disable the CD-ROM/DVD source if you do not have the Ubuntu installation media inserted in the drive.
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mSECURITY PACKAGES[0m
+hplip-install[205247]: info: :[01m-----------------[0m
+hplip-install[205247]: info: :AppArmor is installed. 
+hplip-install[205247]: info: :AppArmor protects the application from external intrusion attempts making the application secure
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mRUNNING PRE-INSTALL COMMANDS[0m
+hplip-install[205247]: info: :[01m----------------------------[0m
+hplip-install[205247]: info: :OK
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mRUNNING HPLIP LIBS REMOVE COMMANDS[0m
+hplip-install[205247]: info: :[01m----------------------------------[0m
+hplip-install[205247]: info: :sudo apt-get remove libhpmud0 libsane-hpaio printer-driver-postscript-hp ( hp_libs_remove step 1)
+hplip-install[205247]: info: :OK
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mMISSING DEPENDENCIES[0m
+hplip-install[205247]: info: :[01m--------------------[0m
+hplip-install[205247]: info: :Following dependencies are not installed. HPLIP will not work if all REQUIRED dependencies are not installed and some of the HPLIP features will not work if OPTIONAL dependencies are not installed.
+hplip-install[205247]: info: :Package-Name         Component            Required/Optional   
+hplip-install[205247]: info: :libjpeg              base                 REQUIRED            
+hplip-install[205247]: info: :libtool              base                 REQUIRED            
+hplip-install[205247]: info: :cups-devel           base                 REQUIRED            
+hplip-install[205247]: info: :cups-image           base                 REQUIRED            
+hplip-install[205247]: info: :libusb               base                 REQUIRED            
+hplip-install[205247]: info: :sane-devel           scan                 REQUIRED            
+hplip-install[205247]: info: :libavahi-dev         scan                 REQUIRED            
+hplip-install[205247]: info: :xsane                scan                 OPTIONAL            
+hplip-install[205247]: info: :libnetsnmp-devel     network              REQUIRED            
+hplip-install[205247]: info: :avahi-utils          network              OPTIONAL            
+hplip-install[205247]: info: :python3-notify2      gui_qt5              OPTIONAL            
+hplip-install[205247]: info: :python3-pyqt4-dbus   gui_qt4              OPTIONAL            
+hplip-install[205247]: info: :python3-pyqt4        gui_qt4              REQUIRED            
+hplip-install[205247]: info: :python3-pyqt5-dbus   gui_qt5              OPTIONAL            
+hplip-install[205247]: info: :python3-pyqt5        gui_qt5              REQUIRED            
+hplip-install[205247]: info: :python3-devel        base                 REQUIRED            
+hplip-install[205247]: info: :python3-reportlab    fax                  OPTIONAL            
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :
+hplip-install[205247]: info: :[01mINSTALL MISSING REQUIRED DEPENDENCIES[0m
+hplip-install[205247]: info: :[01m-------------------------------------[0m
+note: Installation of dependencies requires an active internet connection.
+warning: Missing REQUIRED dependency: libjpeg (libjpeg - JPEG library)
+warning: Missing REQUIRED dependency: libtool (libtool - Library building support services)
+warning: Missing REQUIRED dependency: cups-devel (CUPS devel- Common Unix Printing System development files)
+warning: Missing REQUIRED dependency: cups-image (CUPS image - CUPS image development files)
+warning: Missing REQUIRED dependency: libusb (libusb - USB library)
+warning: Missing REQUIRED dependency: python3-devel (Python devel - Python development files)
+warning: Missing REQUIRED dependency: libnetsnmp-devel (libnetsnmp-devel - SNMP networking library development files)
+warning: Missing REQUIRED dependency: python3-pyqt4 (PyQt 4- Qt interface for Python (for Qt version 4.x))
+warning: This installer cannot install 'python3-pyqt4' for your distro/OS and/or version.
+error: Installation cannot continue without this dependency. Please manually install this dependency and re-run this installer.

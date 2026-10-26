@@ -1,0 +1,15 @@
+hplip-install[181619]: info: :
+hplip-install[181619]: info: :[01mHP Linux Imaging and Printing System (ver. 3.26.6)[0m
+hplip-install[181619]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[181619]: info: :
+hplip-install[181619]: info: :Copyright (c) 2001-18 HP Development Company, LP
+hplip-install[181619]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[181619]: info: :This is free software, and you are welcome to distribute it
+hplip-install[181619]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[181619]: info: :
+hplip-install[181619]: info: :Installer log saved in: [01mhplip-install_Fri-23-Oct-2026_16:37:38.log[0m
+hplip-install[181619]: info: :
+hplip-install[181619]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+error: ubuntu-26.10 version is not supported, so all dependencies may not be installed. However trying to install using ubuntu-24.04 version packages.
+hplip-install[181619]: info: :Installation exit

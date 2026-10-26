@@ -1,0 +1,57 @@
+# @configure_input@
+
+[hplip]
+version=@VERSION@
+
+[dirs]
+home=@abs_datadir@/hplip
+run=/var/run
+ppd=@abs_hpppddir@
+ppdbase=@abs_ppddir@
+doc=@abs_docdir@
+html=@abs_htmldir@
+icon=@icondir@
+cupsbackend=@cupsbackenddir@
+cupsfilter=@cupsfilterdir@
+drv=@abs_drvdir@
+bin=/usr/bin
+apparmor=@apparmordir@
+
+[plugin]
+# Allowed library directories for plugin installation. Colon-separated.
+# Used by installer/pluginhandler.py to validate plugin destination paths.
+allowed_lib_dirs=/usr/lib:/usr/lib64:/usr/local/lib:/usr/local/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/aarch64-linux-gnu:/usr/lib/arm-linux-gnueabihf
+# Allowed SANE library directories for plugin installation. Colon-separated.
+allowed_sane_dirs=/usr/lib/sane:/usr/lib64/sane:/usr/local/lib/sane:/usr/local/lib64/sane:/usr/lib/x86_64-linux-gnu/sane:/usr/lib/i386-linux-gnu/sane:/usr/lib/aarch64-linux-gnu/sane:/usr/lib/arm-linux-gnueabihf/sane
+# Following values are determined at configure time and cannot be changed.
+[configure]
+network-build=@network_build@
+libusb01-build=@libusb01_build@
+pp-build=@pp_build@
+gui-build=@gui_build@
+scanner-build=@scan_build@
+fax-build=@fax_build@
+dbus-build=@dbus_build@
+cups11-build=@cups11_build@
+doc-build=@doc_build@
+shadow-build=@shadow_build@
+hpijs-install=@hpijs_install@
+foomatic-drv-install=@foomatic_drv_install@
+foomatic-ppd-install=@foomatic_ppd_install@
+foomatic-rip-hplip-install=@foomatic_rip_hplip_install@
+hpcups-install=@hpcups_install@
+cups-drv-install=@cups_drv_install@
+cups-ppd-install=@cups_ppd_install@
+internal-tag=@PACKAGE_BUGREPORT@
+restricted-build=no
+ui-toolkit=@ui_toolkit@
+qt3=@qt3@
+qt4=@qt4@
+qt5=@qt5@
+policy-kit=@policykit@
+lite-build=@lite_build@
+udev_sysfs_rules=@udev_sysfs_rules@
+hpcups-only-build=@hpcups_only_build@
+hpijs-only-build=@hpijs_only_build@
+apparmor_build=@apparmor_build@
+class-driver=@class_driver@

@@ -1,0 +1,5 @@
+libapdk_la-models.lo: prnt/hpijs/models.cpp /usr/include/stdc-predef.h \
+ prnt/hpijs/models.h prnt/hpijs/config.h
+/usr/include/stdc-predef.h:
+prnt/hpijs/models.h:
+prnt/hpijs/config.h:

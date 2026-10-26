@@ -1,0 +1,3 @@
+xjpg_dct.lo: ip/xjpg_dct.c /usr/include/stdc-predef.h ip/xjpg_dct.h
+/usr/include/stdc-predef.h:
+ip/xjpg_dct.h:
